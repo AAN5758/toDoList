@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+  </head>
+
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="intro col-12">
+          <h1>DO YOUR TASK BRO</h1>
+          <h2>Don't chillin all day</h2>
+          <img src="/resources/hanya mengingatkan.jpeg" alt="" />
+          <div>
+            <div class="border1"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="helpText col-12"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <input id="userInput" type="text" placeholder="Masukkan Tugasmu..." maxlength="27" />
+          <input id="timeInput" type="time" placeholder="Masukkan Waktu..." />
+          <button id="enter">
+            <i class="fas fa-pencil-alt"></i>
+            <svg viewBox="0 0 512 512" width="20" title="check">
+              <path
+                d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Empty List -->
+      <div class="row">
+        <div class="listItems col-12">
+          <ul class="col-12 offset-0 col-sm-8 offset-sm-2"></ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="backend.js"></script>
+  </body>
+</html>
