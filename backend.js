@@ -14,7 +14,7 @@ function listLength() {
 
 function createListElement() {
   var li = document.createElement("li"); // creates an element "li"
-  li.appendChild(document.createTextNode(input.value + " | " + time.value)); //makes text from input field the li text
+  li.appendChild(document.createTextNode(input.value + " | Deadline " + time.value)); //makes text from input field the li text
   //li.appendChild(document.createTextNode(time.value));
   ul.appendChild(li); //adds li to ul
   input.value = ""; //Reset text input field
